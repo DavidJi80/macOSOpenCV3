@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0443595022FD3357009E481D /* videoWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0443594F22FD3357009E481D /* videoWriter.cpp */; };
 		04FE9ADC22F1587400B4F3AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FE9ADB22F1587400B4F3AB /* main.cpp */; };
 		04FE9BD922F1743D00B4F3AB /* libopencv_aruco.3.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE9B6D22F163DE00B4F3AB /* libopencv_aruco.3.4.5.dylib */; };
 		04FE9BDA22F1743D00B4F3AB /* libopencv_bgsegm.3.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE9B5D22F163DE00B4F3AB /* libopencv_bgsegm.3.4.5.dylib */; };
@@ -67,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0443594F22FD3357009E481D /* videoWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = videoWriter.cpp; sourceTree = "<group>"; };
 		04FE9AD822F1587300B4F3AB /* macOSOpenCV3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macOSOpenCV3; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE9ADB22F1587400B4F3AB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		04FE9B5122F163DE00B4F3AB /* libopencv_xfeatures2d.3.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xfeatures2d.3.4.5.dylib; path = "../../../../../usr/local/Cellar/opencv@3/3.4.5_2/lib/libopencv_xfeatures2d.3.4.5.dylib"; sourceTree = "<group>"; };
@@ -172,6 +174,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0443594E22FD3322009E481D /* videoio */ = {
+			isa = PBXGroup;
+			children = (
+				0443594F22FD3357009E481D /* videoWriter.cpp */,
+			);
+			path = videoio;
+			sourceTree = "<group>";
+		};
 		04FE9ACF22F1587300B4F3AB = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +202,7 @@
 		04FE9ADA22F1587300B4F3AB /* macOSOpenCV3 */ = {
 			isa = PBXGroup;
 			children = (
+				0443594E22FD3322009E481D /* videoio */,
 				04FE9ADB22F1587400B4F3AB /* main.cpp */,
 				04FE9BD822F16BC600B4F3AB /* Info.plist */,
 			);
@@ -307,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FE9ADC22F1587400B4F3AB /* main.cpp in Sources */,
+				0443595022FD3357009E481D /* videoWriter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
